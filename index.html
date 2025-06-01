@@ -1030,10 +1030,22 @@
               disableOnInteraction: false,
               reverseDirection: reverse,
             },
-            allowTouchMove: false,
+            allowTouchMove: true, // Enable touch/swipe interaction
             freeMode: false,
             // Set loopedSlides ke jumlah slide asli atau lebih
             loopedSlides: slidesCount > 10 ? slidesCount : 10,
+            // Enable mouse wheel control
+            mousewheel: {
+              enabled: true,
+              forceToAxis: true,
+            },
+            // Enable keyboard control
+            keyboard: {
+              enabled: true,
+              onlyInViewport: true,
+            },
+            // Enable grab cursor
+            grabCursor: true,
           });
         }
 
