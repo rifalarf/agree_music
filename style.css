@@ -323,22 +323,7 @@ body {
   z-index: 2;
   pointer-events: none;
 }
-.swiper-wrapper-outer::before {
-    left: 0;
-    background: linear-gradient(to right, #11182798 0%, rgba(17, 24, 39, 0) 100%);
-    filter: blur(6px);
-    /* Blur sudut kiri */
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
-}
-.swiper-wrapper-outer::after {
-    right: 0;
-    background: linear-gradient(to left, #111827 0%, rgba(17, 24, 39, 0) 100%);
-    filter: blur(6px);
-    /* Blur sudut kanan */
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-}
+
 
 /* Penyesuaian Staggered */
 .swiper-wrapper-outer.staggered {
