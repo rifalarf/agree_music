@@ -269,8 +269,8 @@ body {
     gap: 2rem;
   }
   .pengajar-photo-circle-wrapper {
-    width: 140px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-width: 5px;
   }
   .pengajar-card-circle h4 {
@@ -351,8 +351,8 @@ body {
     width: 100%; /* <--- Hapus width: calc */
   }
   #prestasi .swiper-slide img {
-    width: 160px !important;
-    height: 160px !important;
+    width: 180px !important;
+    height: 180px !important;
     border-radius: 50%;
     object-fit: cover;
     border: 4px solid #f7da92;
@@ -377,8 +377,8 @@ body {
 }
 
 #prestasi .swiper-slide img {
-  width: 150px; /* Ukuran standar */
-  height: 150px;
+  width: 160px; /* Ukuran standar */
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid #f7da92;
